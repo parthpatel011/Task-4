@@ -1,0 +1,45 @@
+form {
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: gray;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    text-align: center;
+    font-family: cursive;
+    font-weight: 500;
+    margin-bottom: 3px;
+    line-height: 1;
+    margin-right: 15px;
+}
+
+input {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+button {
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
